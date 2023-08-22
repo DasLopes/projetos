@@ -1,48 +1,43 @@
-*{
+* {
     margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 body{
-    background-color: #f5f0e5;
-    font-family: Tahoma;
-    background-color: black; 
+    background: url('../img/plano-fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
-.cabecalho{
-    background-color: #000000;    
-    padding: 10px;    
+div{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    max-width: 600px;
+    min-width: 350px;
+    padding: 20px 0;
+    height: 700px;
 }
-p{
-    text-align: right;
+h2{
+    margin: 20px auto;
+    background-color: #000;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 70%;    
+}
+ul{
+    border: 2px solid #000;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 5px;
+    padding: 20px 0;    
+}
+li{
+    margin: 10px 0;    
 }
 a{
-    text-decoration: none;    
-    margin-right: 20px;
+    text-decoration: none;
     font-weight: bold;
-}
-p>a{
-    color: #f5f0e5;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.secao-html{
-    text-align: center;
-    background-color: #dbdada;
-    border-radius: 10px;
-    padding: 20px;
-}
-.secao-html h2{
-    margin: 15px 0;
-}
-.secao-html img{
-    width: 300px;
-    margin: 15px 0;   
-}
-.secao-html ul{
-    margin: 15px auto 15px auto;
-    line-height: 30px;
-    width: 300px;
-    text-align: left;
-}
-.secao-html ul li{
-    padding-left: 30px;
 }
