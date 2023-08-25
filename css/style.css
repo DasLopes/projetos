@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 html, body{
-    height: 100%;
+    height: 100vh;    
 }
 body{
     background: url('../img/plano-fundo.jpg');
@@ -20,7 +20,7 @@ div{
     max-width: 600px;
     min-width: 350px;
     padding: 20px 0;
-    height: 100%;
+    height: 100vh;
 }
 h2{
     margin: 20px auto;
@@ -43,4 +43,13 @@ li{
 a{
     text-decoration: none;
     font-weight: bold;
+}
+.logo-github{
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+}
+.logo-github a img{
+    width: 100px;
+    height: 100px;
 }
